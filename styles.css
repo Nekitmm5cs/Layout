@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-container {
+    min-height: 175vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#first {
+    background-color: #444444;
+    display: flex;
+    align-items: center;
+    padding: 50px; 
+    position: relative;
+    width: 100%; 
+    min-height: 450px;
+}
+
+.main-image {
+    width: 971px;
+    height: 344px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 75px;
+    left: 300px; 
+}
+
+h1 {
+    font-size: 45px;
+    color: #ffff;
+    font-family: Helvetica;
+}
+
+.icon-image {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.main-paragraph {
+    font-size: 30px;
+    color: dodgerblue; 
+}
+
+#second {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    padding: 50px; 
+    position: relative;
+    width: 100%; 
+    min-height: 425px;
+    top: -170px; 
+}
+
+.first_h2 {
+    font-size: 45px;
+    color: rgb(4, 84, 165); 
+    font-family: Helvetica;
+    position: absolute;
+    top: 55px; 
+}
+
+.second-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    font-family: Helvetica;
+    color: white; 
+}
+
+.second-image {
+    width: 1152px;
+    height: 648px;
+    position: absolute;
+    top: -155px;
+    left: 525px;
+}
+
+#third {
+    background-color: #212121;
+    position: absolute;
+    width: 100%; 
+    min-height: 425px;
+    margin-top: 873px;
+}
+
+.second_h2 {
+    color: dodgerblue;
+    text-align: center;
+    font-family: Helvetica;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    bottom: 375px; 
+}
+
+.salon-image {
+    width: 720px;
+    height: 224px;
+    position: absolute;
+    top: -155px;
+    left: 525px;
+}
+
+.salon-image {
+    position: absolute;
+    bottom: 75px;
+    left: 400px;
+    top: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#third .box1 {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    color: #ffff;
+    font-family: Helvetica;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 75px;
+    top: 200px;
+}
+
+#third .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    color: #ffff;
+    font-family: Helvetica;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+
+#third .box3 {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    color: #ffff;
+    font-family: Helvetica;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; 
+    position: absolute;
+    left: 1050px;
+    top: 35px;
+}
+
+#third .box4 {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    color: #ffff;
+    font-family: Helvetica;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; 
+    position: absolute;
+    left: 1350px;
+    top: 35px;
+}
+
+#third .box5 {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    color: #ffff;
+    font-family: Helvetica;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; 
+    position: absolute;
+    left: 1150px;
+    top: 250px;
+}
+
+.icon1{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 75px;
+    left: 90px;
+    top: 115px;
+}
+
+.icon2{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 75px;
+    left: 415px;
+    top: 55px;
+}
+
+.icon3{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 75px;
+    left: 975px;
+    top: 35px;
+}
+
+.icon4{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 75px;
+    left: 1364px;
+    top: 150px;
+}
+
+.icon4{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 75px;
+    left: 1364px;
+    top: 150px;
+}
+
+.icon5{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 75px;
+    left: 1170px;
+    top: 160px;
+}
+
+h3{
+
+}
